@@ -1,0 +1,745 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-onerror/lib/onerror_page.mustache",
+      "all": "<Function all>"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/gh/4hqsy95d6333ckmftsgjmmj40000gn/T/egg-multipart-tmp/hypertrons",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "event": {
+      "client": {}
+    },
+    "sched": {
+      "client": {}
+    },
+    "installation": {
+      "client": {
+        "configs": [
+          {
+            "type": "github",
+            "config": {
+              "name": "github",
+              "endpoint": "https://api.github.com/",
+              "appId": 140766,
+              "privateKeyPath": "private-key.pem",
+              "privateKeyPathAbsolute": false,
+              "component": {
+                "file": {
+                  "basePath": "app/component",
+                  "configModule": "config",
+                  "luaModule": "index.lua",
+                  "versionPath": "version.json"
+                }
+              },
+              "webhook": {
+                "path": "/",
+                "secret": "test",
+                "proxyUrl": "https://smee.io/CeSFy0rbMoqEfZof"
+              },
+              "fetcher": {
+                "tokens": [
+                  "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"
+                ]
+              },
+              "config": {
+                "remote": {
+                  "filePath": ".github/hypertrons.json"
+                },
+                "private": {
+                  "file": {
+                    "rootPath": "./repo_configs/"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "phManager": {
+      "client": {
+        "queue": {
+          "concurrency": 50,
+          "autoStart": true,
+          "queueClass": "<Class PriorityQueue>",
+          "intervalCap": 600000,
+          "interval": 0,
+          "carryoverConcurrencyCount": false,
+          "timeout": 60000,
+          "throwOnTimeout": false
+        },
+        "retry": {
+          "retries": 10,
+          "factor": 2,
+          "minTimeout": 1000,
+          "maxTimeout": 60000,
+          "randomize": false,
+          "forever": false,
+          "unref": false,
+          "maxRetryTime": 600000
+        }
+      }
+    },
+    "github": {
+      "client": {}
+    },
+    "gitlab": {
+      "client": {}
+    },
+    "gitee": {
+      "client": {}
+    },
+    "ciManager": {
+      "client": {}
+    },
+    "imManager": {
+      "client": {}
+    },
+    "translate": {
+      "client": {}
+    },
+    "errorManager": {
+      "client": {
+        "slack": []
+      }
+    },
+    "env": "local",
+    "name": "hypertrons",
+    "keys": "<String len: 29>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "hypertrons",
+      "version": "1.0.0",
+      "description": "Open source robot platform",
+      "private": true,
+      "egg": {
+        "typescript": true,
+        "declarations": true
+      },
+      "scripts": {
+        "start": "tsc && egg-scripts start --daemon --title=egg-server-hypertrons",
+        "stop": "egg-scripts stop --title=egg-server-hypertrons",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test-local": "egg-bin test",
+        "test": "npm run lint -- --fix && npm run cov && npm run tsc && npm run md-lint && npm run license-check",
+        "cov": "egg-bin cov",
+        "tsc": "ets && tsc -p .",
+        "autod": "autod",
+        "lint": "tslint --project . -c tslint.json",
+        "clean": "ets clean",
+        "md-lint": "open-md-checker",
+        "filename-check": "node app/utils/filename-check/index.js",
+        "license-check": "node app/utils/license-check/index.js --logInfo=false"
+      },
+      "dependencies": {
+        "@octokit/app": "^4.1.0",
+        "@octokit/plugin-retry": "^2.2.0",
+        "@octokit/rest": "^16.35.0",
+        "@octokit/webhooks": "^6.3.2",
+        "@slack/web-api": "^5.6.0",
+        "@slack/webhook": "^5.0.2",
+        "@svgdotjs/svg.js": "^3.0.16",
+        "@types/deep-diff": "^1.0.0",
+        "@types/dingtalk-robot-sender": "^1.1.0",
+        "@types/nodemailer": "^6.2.2",
+        "deep-diff": "^1.0.2",
+        "deglob": "^4.0.1",
+        "delay": "^4.3.0",
+        "dingtalk-robot-sender": "^1.2.0",
+        "egg": "^2.4.1",
+        "egg-scripts": "^1.2.0",
+        "eventsource": "^1.0.7",
+        "execa": "^1.0.0",
+        "extend2": "^1.0.0",
+        "fengari": "^0.1.4",
+        "github-data-cat": "^1.0.2",
+        "gitlab": "^12.0.0",
+        "google-translate": "^3.0.0",
+        "http2": "^3.3.7",
+        "lodash": "^4.17.15",
+        "node-fetch": "^2.6.0",
+        "node-schedule": "^1.3.2",
+        "node-watch": "^0.6.3",
+        "nodemailer": "^6.3.1",
+        "p-queue": "^6.3.0",
+        "p-retry": "^4.2.0",
+        "p-wait-for": "^3.1.0",
+        "pope": "^2.0.2",
+        "reflect-metadata": "^0.1.13",
+        "smee-client": "^1.1.0",
+        "svgdom": "0.0.21",
+        "vfile-reporter": "^6.0.0",
+        "xml2js": "^0.4.19"
+      },
+      "devDependencies": {
+        "@commitlint/cli": "^13.2.1",
+        "@commitlint/config-conventional": "^13.2.0",
+        "@types/lodash": "^4.14.149",
+        "@types/mocha": "^2.2.40",
+        "@types/node": "^12.12.14",
+        "@types/node-fetch": "^2.5.4",
+        "@types/node-schedule": "^1.2.4",
+        "@types/supertest": "^2.0.0",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.8.0",
+        "egg-mock": "^3.16.0",
+        "egg-onerror": "^2.1.0",
+        "gulp": "^3.9.1",
+        "gulp-license-check": "^1.2.1",
+        "gulp-util": "^3.0.8",
+        "husky": "^4.2.3",
+        "lint-staged": "^10.0.7",
+        "moment": "^2.25.3",
+        "nock": "^11.7.0",
+        "open-md-checker": "^1.2.3",
+        "remark": "^14.0.1",
+        "remark-lint-no-dead-urls": "^1.0.1",
+        "remark-preset-lint-markdown-style-guide": "^2.1.3",
+        "remark-preset-lint-recommended": "^3.0.3",
+        "text-encoding": "^0.7.0",
+        "tslib": "^1.9.0",
+        "tslint": "^5.0.0",
+        "tslint-config-egg": "^1.0.0",
+        "typescript": "^3.0.0",
+        "yargs": "^15.1.0"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "ci": {
+        "version": "8"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "eslintIgnore": [
+        "coverage"
+      ],
+      "author": "Xlab",
+      "license": "MIT",
+      "md-lint": {
+        "patterns": [
+          "**/*.md"
+        ],
+        "options": {
+          "useGitIgnore": true,
+          "ignore": [
+            "node_modules/**/*"
+          ]
+        }
+      },
+      "filename-check": {
+        "patterns": [
+          "app/**/*",
+          "test/**/*",
+          "config/**/*",
+          "scripts/**/*"
+        ],
+        "options": {
+          "useGitIgnore": true,
+          "ignore": []
+        }
+      }
+    },
+    "baseDir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons",
+    "HOME": "/Users/ben",
+    "rundir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 14191>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      }
+    },
+    "logger": {
+      "dir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "hypertrons-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": true,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "responseTimeout": 60000
+    },
+    "middleware": [],
+    "sourceUrl": "https://github.com/eggjs/examples/tree/master/hypertrons",
+    "coreMiddlewares": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "appMiddlewares": [],
+    "appMiddleware": []
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security",
+      "version": "2.7.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart",
+      "version": "2.9.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/plugin.js",
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "event": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/event-manager",
+      "name": "event",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "sched": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/scheduler-manager",
+      "name": "sched",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "installation": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/installation-manager",
+      "name": "installation",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "phManager": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/ph-manager",
+      "name": "phManager",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "github": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/github",
+      "name": "github",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "gitlab": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/gitlab",
+      "name": "gitlab",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "gitee": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/gitee",
+      "name": "gitee",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "ciManager": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/ci-manager",
+      "name": "ciManager",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "imManager": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/im-manager",
+      "name": "imManager",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "translate": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/translate",
+      "name": "translate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    },
+    "errorManager": {
+      "enable": true,
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/error-manager",
+      "name": "errorManager",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/plugin.ts"
+    }
+  }
+}

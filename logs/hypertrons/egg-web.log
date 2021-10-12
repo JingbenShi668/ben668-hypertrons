@@ -1,0 +1,131 @@
+
+2021-10-04 22:00:17,582 INFO 74832 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:00:17,601 INFO 74832 [egg-multipart] stream mode enable
+2021-10-04 22:00:17,675 INFO 74832 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:00:17,677 INFO 74832 [egg-security] use methodnoallow middleware
+2021-10-04 22:00:17,678 INFO 74832 [egg-security] use noopen middleware
+2021-10-04 22:00:17,679 INFO 74832 [egg-security] use nosniff middleware
+2021-10-04 22:00:17,679 INFO 74832 [egg-security] use xssProtection middleware
+2021-10-04 22:00:17,680 INFO 74832 [egg-security] use xframe middleware
+2021-10-04 22:00:17,681 INFO 74832 [egg-security] use dta middleware
+2021-10-04 22:00:17,681 INFO 74832 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:00:17,694 INFO 74832 [egg:core] dump config after load, 4ms
+2021-10-04 22:00:17,707 INFO 74832 [egg-watcher:application] watcher start success
+2021-10-04 22:00:17,713 INFO 74832 [egg:core] dump config after ready, 5ms
+2021-10-04 22:01:55,260 INFO 74866 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:01:55,288 INFO 74866 [egg-multipart] stream mode enable
+2021-10-04 22:01:55,358 INFO 74866 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:01:55,360 INFO 74866 [egg-security] use methodnoallow middleware
+2021-10-04 22:01:55,361 INFO 74866 [egg-security] use noopen middleware
+2021-10-04 22:01:55,362 INFO 74866 [egg-security] use nosniff middleware
+2021-10-04 22:01:55,362 INFO 74866 [egg-security] use xssProtection middleware
+2021-10-04 22:01:55,363 INFO 74866 [egg-security] use xframe middleware
+2021-10-04 22:01:55,363 INFO 74866 [egg-security] use dta middleware
+2021-10-04 22:01:55,364 INFO 74866 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:01:55,378 INFO 74866 [egg:core] dump config after load, 4ms
+2021-10-04 22:01:55,388 INFO 74866 [egg-watcher:application] watcher start success
+2021-10-04 22:01:55,395 INFO 74866 [egg:core] dump config after ready, 5ms
+2021-10-04 22:11:44,995 INFO 74973 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:11:45,019 INFO 74973 [egg-multipart] stream mode enable
+2021-10-04 22:11:45,110 INFO 74973 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:11:45,113 INFO 74973 [egg-security] use methodnoallow middleware
+2021-10-04 22:11:45,113 INFO 74973 [egg-security] use noopen middleware
+2021-10-04 22:11:45,114 INFO 74973 [egg-security] use nosniff middleware
+2021-10-04 22:11:45,115 INFO 74973 [egg-security] use xssProtection middleware
+2021-10-04 22:11:45,116 INFO 74973 [egg-security] use xframe middleware
+2021-10-04 22:11:45,116 INFO 74973 [egg-security] use dta middleware
+2021-10-04 22:11:45,116 INFO 74973 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:11:45,132 INFO 74973 [egg:core] dump config after load, 5ms
+2021-10-04 22:11:45,144 INFO 74973 [egg-watcher:application] watcher start success
+2021-10-04 22:11:45,156 INFO 74973 [egg:core] dump config after ready, 9ms
+2021-10-04 22:28:48,965 INFO 75138 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:28:48,984 INFO 75138 [egg-multipart] stream mode enable
+2021-10-04 22:28:49,059 INFO 75138 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:28:49,061 INFO 75138 [egg-security] use methodnoallow middleware
+2021-10-04 22:28:49,062 INFO 75138 [egg-security] use noopen middleware
+2021-10-04 22:28:49,062 INFO 75138 [egg-security] use nosniff middleware
+2021-10-04 22:28:49,063 INFO 75138 [egg-security] use xssProtection middleware
+2021-10-04 22:28:49,063 INFO 75138 [egg-security] use xframe middleware
+2021-10-04 22:28:49,064 INFO 75138 [egg-security] use dta middleware
+2021-10-04 22:28:49,064 INFO 75138 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:28:49,079 INFO 75138 [egg:core] dump config after load, 6ms
+2021-10-04 22:28:49,093 INFO 75138 [egg-watcher:application] watcher start success
+2021-10-04 22:28:49,101 INFO 75138 [egg:core] dump config after ready, 5ms
+2021-10-04 22:35:10,822 INFO 75219 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:35:10,843 INFO 75219 [egg-multipart] stream mode enable
+2021-10-04 22:35:10,918 INFO 75219 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:35:10,921 INFO 75219 [egg-security] use methodnoallow middleware
+2021-10-04 22:35:10,922 INFO 75219 [egg-security] use noopen middleware
+2021-10-04 22:35:10,923 INFO 75219 [egg-security] use nosniff middleware
+2021-10-04 22:35:10,924 INFO 75219 [egg-security] use xssProtection middleware
+2021-10-04 22:35:10,925 INFO 75219 [egg-security] use xframe middleware
+2021-10-04 22:35:10,926 INFO 75219 [egg-security] use dta middleware
+2021-10-04 22:35:10,926 INFO 75219 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:35:10,942 INFO 75219 [egg:core] dump config after load, 5ms
+2021-10-04 22:35:10,956 INFO 75219 [egg-watcher:application] watcher start success
+2021-10-04 22:35:10,964 INFO 75219 [egg:core] dump config after ready, 6ms
+2021-10-04 22:37:32,634 INFO 75248 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:37:32,654 INFO 75248 [egg-multipart] stream mode enable
+2021-10-04 22:37:32,698 INFO 75248 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:37:32,700 INFO 75248 [egg-security] use methodnoallow middleware
+2021-10-04 22:37:32,700 INFO 75248 [egg-security] use noopen middleware
+2021-10-04 22:37:32,700 INFO 75248 [egg-security] use nosniff middleware
+2021-10-04 22:37:32,701 INFO 75248 [egg-security] use xssProtection middleware
+2021-10-04 22:37:32,701 INFO 75248 [egg-security] use xframe middleware
+2021-10-04 22:37:32,701 INFO 75248 [egg-security] use dta middleware
+2021-10-04 22:37:32,701 INFO 75248 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:37:32,712 INFO 75248 [egg:core] dump config after load, 4ms
+2021-10-04 22:37:32,722 INFO 75248 [egg-watcher:application] watcher start success
+2021-10-04 22:37:32,729 INFO 75248 [egg:core] dump config after ready, 5ms
+2021-10-04 22:37:36,844 INFO 75257 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:37:36,867 INFO 75257 [egg-multipart] stream mode enable
+2021-10-04 22:37:36,911 INFO 75257 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:37:36,913 INFO 75257 [egg-security] use methodnoallow middleware
+2021-10-04 22:37:36,913 INFO 75257 [egg-security] use noopen middleware
+2021-10-04 22:37:36,914 INFO 75257 [egg-security] use nosniff middleware
+2021-10-04 22:37:36,914 INFO 75257 [egg-security] use xssProtection middleware
+2021-10-04 22:37:36,914 INFO 75257 [egg-security] use xframe middleware
+2021-10-04 22:37:36,915 INFO 75257 [egg-security] use dta middleware
+2021-10-04 22:37:36,915 INFO 75257 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:37:36,926 INFO 75257 [egg:core] dump config after load, 4ms
+2021-10-04 22:37:36,936 INFO 75257 [egg-watcher:application] watcher start success
+2021-10-04 22:37:36,943 INFO 75257 [egg:core] dump config after ready, 5ms
+2021-10-04 22:39:53,262 INFO 75270 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:39:53,294 INFO 75270 [egg-multipart] stream mode enable
+2021-10-04 22:39:53,344 INFO 75270 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:39:53,346 INFO 75270 [egg-security] use methodnoallow middleware
+2021-10-04 22:39:53,346 INFO 75270 [egg-security] use noopen middleware
+2021-10-04 22:39:53,347 INFO 75270 [egg-security] use nosniff middleware
+2021-10-04 22:39:53,347 INFO 75270 [egg-security] use xssProtection middleware
+2021-10-04 22:39:53,347 INFO 75270 [egg-security] use xframe middleware
+2021-10-04 22:39:53,348 INFO 75270 [egg-security] use dta middleware
+2021-10-04 22:39:53,348 INFO 75270 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:39:53,360 INFO 75270 [egg:core] dump config after load, 5ms
+2021-10-04 22:39:53,373 INFO 75270 [egg-watcher:application] watcher start success
+2021-10-04 22:39:53,380 INFO 75270 [egg:core] dump config after ready, 5ms
+2021-10-04 22:40:12,811 INFO 75281 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:40:12,836 INFO 75281 [egg-multipart] stream mode enable
+2021-10-04 22:40:12,884 INFO 75281 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:40:12,886 INFO 75281 [egg-security] use methodnoallow middleware
+2021-10-04 22:40:12,886 INFO 75281 [egg-security] use noopen middleware
+2021-10-04 22:40:12,887 INFO 75281 [egg-security] use nosniff middleware
+2021-10-04 22:40:12,887 INFO 75281 [egg-security] use xssProtection middleware
+2021-10-04 22:40:12,887 INFO 75281 [egg-security] use xframe middleware
+2021-10-04 22:40:12,888 INFO 75281 [egg-security] use dta middleware
+2021-10-04 22:40:12,888 INFO 75281 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:40:12,900 INFO 75281 [egg:core] dump config after load, 4ms
+2021-10-04 22:40:12,908 INFO 75281 [egg-watcher:application] watcher start success
+2021-10-04 22:40:12,915 INFO 75281 [egg:core] dump config after ready, 5ms
+2021-10-04 22:40:20,826 INFO 75298 [egg:logger] init all loggers with options: {"dir":"/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/logs/hypertrons","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hypertrons-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-10-04 22:40:20,853 INFO 75298 [egg-multipart] stream mode enable
+2021-10-04 22:40:20,901 INFO 75298 [egg-static] starting static serve /public/ -> /Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/public
+2021-10-04 22:40:20,903 INFO 75298 [egg-security] use methodnoallow middleware
+2021-10-04 22:40:20,903 INFO 75298 [egg-security] use noopen middleware
+2021-10-04 22:40:20,904 INFO 75298 [egg-security] use nosniff middleware
+2021-10-04 22:40:20,904 INFO 75298 [egg-security] use xssProtection middleware
+2021-10-04 22:40:20,904 INFO 75298 [egg-security] use xframe middleware
+2021-10-04 22:40:20,904 INFO 75298 [egg-security] use dta middleware
+2021-10-04 22:40:20,905 INFO 75298 [egg-security] compose 6 middlewares into one security middleware
+2021-10-04 22:40:20,917 INFO 75298 [egg:core] dump config after load, 4ms
+2021-10-04 22:40:20,930 INFO 75298 [egg-watcher:application] watcher start success
+2021-10-04 22:40:20,938 INFO 75298 [egg:core] dump config after ready, 5ms

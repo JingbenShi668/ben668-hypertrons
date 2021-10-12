@@ -1,0 +1,433 @@
+{
+  "phManager": {
+    "client": {
+      "queue": {
+        "concurrency": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "autoStart": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "intervalCap": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "interval": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "carryoverConcurrencyCount": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "timeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "throwOnTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "queueClass": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/ph-manager/config/config.default.ts"
+      },
+      "retry": {
+        "retries": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "factor": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "minTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "maxTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "randomize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "forever": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "unref": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+        "maxRetryTime": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts"
+      }
+    }
+  },
+  "installation": {
+    "client": {
+      "configs": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts"
+    }
+  },
+  "keys": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+  "middleware": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+      "type": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "onerror": {
+    "all": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+    "errorPageUrl": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-onerror/config/config.default.js"
+  },
+  "sourceUrl": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/config/config.default.ts",
+  "session": {
+    "maxAge": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg-view/config/config.default.js"
+  },
+  "event": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/event-manager/config/config.default.ts"
+  },
+  "sched": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/scheduler-manager/config/config.default.ts"
+  },
+  "github": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/github/config/config.default.ts"
+  },
+  "gitlab": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/gitlab/config/config.default.ts"
+  },
+  "gitee": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/gitee/config/config.default.ts"
+  },
+  "ciManager": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/ci-manager/config/config.default.ts"
+  },
+  "imManager": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/im-manager/config/config.default.ts"
+  },
+  "translate": {
+    "client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/translate/config/config.default.ts"
+  },
+  "errorManager": {
+    "client": {
+      "slack": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/app/plugin/error-manager/config/config.default.ts"
+    }
+  },
+  "env": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "name": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "version": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "description": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "private": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "declarations": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "stop": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "dev": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "debug": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "test": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "cov": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "autod": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "lint": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "clean": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "md-lint": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "filename-check": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "license-check": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@octokit/app": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@octokit/plugin-retry": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@octokit/rest": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@octokit/webhooks": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@slack/web-api": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@slack/webhook": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@svgdotjs/svg.js": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/deep-diff": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/dingtalk-robot-sender": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/nodemailer": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "deep-diff": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "deglob": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "delay": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "dingtalk-robot-sender": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "eventsource": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "execa": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "extend2": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "fengari": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "github-data-cat": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "gitlab": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "google-translate": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "http2": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "node-fetch": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "node-schedule": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "node-watch": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "nodemailer": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "p-queue": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "p-retry": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "p-wait-for": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "pope": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "reflect-metadata": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "smee-client": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "svgdom": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "vfile-reporter": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "xml2js": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@commitlint/config-conventional": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/lodash": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/node-fetch": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/node-schedule": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "autod": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "egg-onerror": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "gulp": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "gulp-license-check": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "gulp-util": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "husky": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "lint-staged": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "moment": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "nock": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "open-md-checker": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "remark": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "remark-lint-no-dead-urls": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "remark-preset-lint-markdown-style-guide": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "remark-preset-lint-recommended": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "text-encoding": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "tslint-config-egg": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "yargs": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "url": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "author": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "license": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "md-lint": {
+      "patterns": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "options": {
+        "useGitIgnore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+        "ignore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+      }
+    },
+    "filename-check": {
+      "patterns": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "options": {
+        "useGitIgnore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+        "ignore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+      }
+    }
+  },
+  "baseDir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "strict": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "depth": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "env": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "level": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "logging": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "port": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/ben/mydata/gitHubDir/ben-open-digger/hypertrons/node_modules/egg/config/config.default.js"
+}

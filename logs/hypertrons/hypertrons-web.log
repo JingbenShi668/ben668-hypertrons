@@ -1,0 +1,827 @@
+
+2021-10-04 22:00:17,602 INFO 74832 [event-app] Going to load
+2021-10-04 22:00:17,603 INFO 74832 [sched-app] Going to load
+2021-10-04 22:00:17,603 INFO 74832 [installation-app] Going to load
+2021-10-04 22:00:17,603 INFO 74832 [phManager-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [github-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [gitlab-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [gitee-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [ciManager-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [imManager-app] Going to load
+2021-10-04 22:00:17,604 INFO 74832 [translate-app] Going to load
+2021-10-04 22:00:17,605 INFO 74832 [errorManager-app] Going to load
+2021-10-04 22:00:17,714 INFO 74832 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,714 INFO 74832 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,715 INFO 74832 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,715 INFO 74832 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:00:17,717 INFO 74832 [event-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [github-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,717 INFO 74832 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:00:17,735 INFO 74832 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:00:17,735 INFO 74832 [host-github] Start to init webhooks for github
+2021-10-04 22:00:17,736 INFO 74832 [host-github] Start to watch file config
+2021-10-04 22:00:17,750 INFO 74832 [host-github] Start to load components
+2021-10-04 22:00:17,752 INFO 74832 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:00:17,753 INFO 74832 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:00:17,756 INFO 74832 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:00:17,758 INFO 74832 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:00:17,760 INFO 74832 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:00:17,764 INFO 74832 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:00:17,767 INFO 74832 [host-github-component-service] Gonna load component under command
+2021-10-04 22:00:17,771 INFO 74832 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:00:17,776 INFO 74832 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:00:17,780 INFO 74832 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:00:17,782 INFO 74832 [host-github-component-service] Gonna load component under im
+2021-10-04 22:00:17,785 INFO 74832 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:00:17,788 INFO 74832 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:00:17,792 INFO 74832 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:00:17,796 INFO 74832 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:00:17,799 INFO 74832 [host-github-component-service] Gonna load component under role
+2021-10-04 22:00:17,801 INFO 74832 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:00:17,803 INFO 74832 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:00:17,805 INFO 74832 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:00:17,807 INFO 74832 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:00:17,811 INFO 74832 [host-github] Start to load and sync repos
+2021-10-04 22:00:20,090 INFO 74832 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:00:20,095 INFO 74832 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:00:20,095 INFO 74832 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:00:20,593 INFO 74832 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:00:20,593 INFO 74832 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:00:21,200 INFO 74832 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:00:21,379 INFO 74832 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:00:21,381 INFO 74832 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:00:21,381 INFO 74832 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:00:21,437 INFO 74832 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:00:21,441 INFO 74832 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:00:21,443 INFO 74832 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:00:21,444 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:00:21,444 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:00:21,444 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:00:21,445 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:00:21,445 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:00:21,445 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:00:21,445 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:00:21,446 INFO 74832 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:00:21,446 INFO 74832 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:00:22,236 INFO 74832 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:00:37,643 INFO 74832 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:00:39,579 INFO 74832 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:00:39,579 INFO 74832 [client-github-JingbenShi668/lab-commandService] the issue's body is Maybe I like listening music.
+2021-10-04 22:00:39,581 INFO 74832 [client-github-JingbenShi668/lab-luaService] From lua: Enter ben_translate_Bot based on Hypertrons-------------
+2021-10-04 22:00:39,581 INFO 74832 [client-github-JingbenShi668/lab-luaService] From lua: issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:00:39,581 INFO 74832 [client-github-JingbenShi668/lab-luaService] Gonna translate to zh, src = 
+Maybe I like listening music.
+2021-10-04 22:00:39,582 INFO 74832 [client-github-JingbenShi668/lab-luaService] Enter Promise function ...
+2021-10-04 22:00:39,598 INFO 74832 [client-github-JingbenShi668/lab-luaService] Gonna get config for translation ...
+2021-10-04 22:00:39,598 INFO 74832 [client-github-JingbenShi668/lab-luaService] Gonna translate to en, src = 再次测试
+2021-10-04 22:00:39,909 INFO 74832 [client-github-JingbenShi668/lab-luaService] Translation Result-------------------- 也许我喜欢听音乐。
+2021-10-04 22:01:11,216 INFO 74832 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:01:11,216 INFO 74832 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:01:11,217 INFO 74832 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:01:11,218 INFO 74832 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:01:11,219 INFO 74832 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:01:11,219 INFO 74832 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:01:11,219 INFO 74832 branchName----------------- main
+2021-10-04 22:01:11,219 INFO 74832 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:01:11,219 INFO 74832 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:01:12,008 INFO 74832 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
+2021-10-04 22:01:55,389 INFO 74832 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,389 INFO 74832 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,390 INFO 74832 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,289 INFO 74866 [event-app] Going to load
+2021-10-04 22:01:55,290 INFO 74866 [sched-app] Going to load
+2021-10-04 22:01:55,290 INFO 74866 [installation-app] Going to load
+2021-10-04 22:01:55,291 INFO 74866 [phManager-app] Going to load
+2021-10-04 22:01:55,291 INFO 74866 [github-app] Going to load
+2021-10-04 22:01:55,291 INFO 74866 [gitlab-app] Going to load
+2021-10-04 22:01:55,292 INFO 74866 [gitee-app] Going to load
+2021-10-04 22:01:55,292 INFO 74866 [ciManager-app] Going to load
+2021-10-04 22:01:55,292 INFO 74866 [imManager-app] Going to load
+2021-10-04 22:01:55,292 INFO 74866 [translate-app] Going to load
+2021-10-04 22:01:55,292 INFO 74866 [errorManager-app] Going to load
+2021-10-04 22:01:55,396 INFO 74866 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,396 INFO 74866 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,397 INFO 74866 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,397 INFO 74866 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,397 INFO 74866 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:01:55,400 INFO 74866 [event-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,400 INFO 74866 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [github-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,401 INFO 74866 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:01:55,418 INFO 74866 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:01:55,418 INFO 74866 [host-github] Start to init webhooks for github
+2021-10-04 22:01:55,419 INFO 74866 [host-github] Start to watch file config
+2021-10-04 22:01:55,933 INFO 74866 [host-github] Start to load components
+2021-10-04 22:01:55,935 INFO 74866 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:01:55,935 INFO 74866 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:01:55,939 INFO 74866 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:01:55,941 INFO 74866 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:01:55,943 INFO 74866 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:01:55,946 INFO 74866 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:01:55,949 INFO 74866 [host-github-component-service] Gonna load component under command
+2021-10-04 22:01:55,952 INFO 74866 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:01:55,955 INFO 74866 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:01:55,958 INFO 74866 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:01:55,961 INFO 74866 [host-github-component-service] Gonna load component under im
+2021-10-04 22:01:55,964 INFO 74866 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:01:55,966 INFO 74866 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:01:55,969 INFO 74866 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:01:55,971 INFO 74866 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:01:55,974 INFO 74866 [host-github-component-service] Gonna load component under role
+2021-10-04 22:01:55,977 INFO 74866 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:01:55,980 INFO 74866 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:01:55,983 INFO 74866 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:01:55,985 INFO 74866 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:01:55,990 INFO 74866 [host-github] Start to load and sync repos
+2021-10-04 22:01:58,337 INFO 74866 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:01:58,343 INFO 74866 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:01:58,343 INFO 74866 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:01:58,842 INFO 74866 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:01:58,842 INFO 74866 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:01:59,628 INFO 74866 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:01:59,629 INFO 74866 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:01:59,630 INFO 74866 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:01:59,683 INFO 74866 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:01:59,686 INFO 74866 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:01:59,686 INFO 74866 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:01:59,687 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:01:59,688 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:01:59,688 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:01:59,688 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:01:59,688 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:01:59,688 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:01:59,689 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:01:59,689 INFO 74866 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:01:59,689 INFO 74866 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:02:00,441 INFO 74866 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:02:15,886 INFO 74866 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:02:18,036 INFO 74866 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:02:18,037 INFO 74866 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:02:18,037 INFO 74866 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:02:18,039 INFO 74866 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:02:18,039 INFO 74866 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+2021-10-04 22:02:18,040 INFO 74866 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:02:18,040 INFO 74866 branchName----------------- main
+2021-10-04 22:02:18,040 INFO 74866 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:02:18,040 INFO 74866 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:02:18,783 INFO 74866 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
+2021-10-04 22:11:45,020 INFO 74973 [event-app] Going to load
+2021-10-04 22:11:45,021 INFO 74973 [sched-app] Going to load
+2021-10-04 22:11:45,021 INFO 74973 [installation-app] Going to load
+2021-10-04 22:11:45,022 INFO 74973 [phManager-app] Going to load
+2021-10-04 22:11:45,022 INFO 74973 [github-app] Going to load
+2021-10-04 22:11:45,022 INFO 74973 [gitlab-app] Going to load
+2021-10-04 22:11:45,022 INFO 74973 [gitee-app] Going to load
+2021-10-04 22:11:45,022 INFO 74973 [ciManager-app] Going to load
+2021-10-04 22:11:45,023 INFO 74973 [imManager-app] Going to load
+2021-10-04 22:11:45,023 INFO 74973 [translate-app] Going to load
+2021-10-04 22:11:45,023 INFO 74973 [errorManager-app] Going to load
+2021-10-04 22:11:45,157 INFO 74973 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,157 INFO 74973 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,158 INFO 74973 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,158 INFO 74973 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,158 INFO 74973 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:11:45,161 INFO 74973 [event-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [github-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,161 INFO 74973 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,162 INFO 74973 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,162 INFO 74973 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:11:45,183 INFO 74973 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:11:45,184 INFO 74973 [host-github] Start to init webhooks for github
+2021-10-04 22:11:45,184 INFO 74973 [host-github] Start to watch file config
+2021-10-04 22:11:45,207 INFO 74973 [host-github] Start to load components
+2021-10-04 22:11:45,210 INFO 74973 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:11:45,210 INFO 74973 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:11:45,214 INFO 74973 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:11:45,220 INFO 74973 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:11:45,224 INFO 74973 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:11:45,231 INFO 74973 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:11:45,234 INFO 74973 [host-github-component-service] Gonna load component under command
+2021-10-04 22:11:45,243 INFO 74973 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:11:45,246 INFO 74973 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:11:45,252 INFO 74973 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:11:45,257 INFO 74973 [host-github-component-service] Gonna load component under im
+2021-10-04 22:11:45,262 INFO 74973 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:11:45,266 INFO 74973 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:11:45,269 INFO 74973 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:11:45,274 INFO 74973 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:11:45,279 INFO 74973 [host-github-component-service] Gonna load component under role
+2021-10-04 22:11:45,282 INFO 74973 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:11:45,285 INFO 74973 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:11:45,287 INFO 74973 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:11:45,290 INFO 74973 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:11:45,294 INFO 74973 [host-github] Start to load and sync repos
+2021-10-04 22:11:47,525 INFO 74973 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:11:47,531 INFO 74973 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:11:47,532 INFO 74973 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:11:48,029 INFO 74973 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:11:48,030 INFO 74973 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:11:48,813 INFO 74973 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:11:48,814 INFO 74973 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:11:48,814 INFO 74973 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:11:48,859 INFO 74973 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:11:48,861 INFO 74973 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:11:48,862 INFO 74973 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:11:48,863 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:11:48,864 INFO 74973 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:11:48,865 INFO 74973 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:11:49,609 INFO 74973 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:12:06,073 INFO 74973 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:12:14,898 INFO 74973 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:12:14,898 INFO 74973 [client-github-JingbenShi668/lab-commandService] the issue's body is Maybe I like listening music.
+2021-10-04 22:12:14,899 INFO 74973 [client-github-JingbenShi668/lab-luaService] From lua: Enter ben_translate_Bot based on Hypertrons-------------
+2021-10-04 22:12:14,900 INFO 74973 [client-github-JingbenShi668/lab-luaService] From lua: issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:12:14,900 INFO 74973 [client-github-JingbenShi668/lab-luaService] Gonna translate to zh, src = 
+Maybe I like listening music.
+2021-10-04 22:12:14,901 INFO 74973 [client-github-JingbenShi668/lab-luaService] Enter Promise function ...
+2021-10-04 22:12:14,905 INFO 74973 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:12:14,918 INFO 74973 [client-github-JingbenShi668/lab-luaService] Gonna get config for translation ...
+2021-10-04 22:12:14,918 INFO 74973 [client-github-JingbenShi668/lab-luaService] Gonna translate to en, src = 测试来了
+2021-10-04 22:12:15,205 INFO 74973 [client-github-JingbenShi668/lab-luaService] Translation Result-------------------- 也许我喜欢听音乐。
+2021-10-04 22:12:15,657 INFO 74973 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
+2021-10-04 22:13:15,934 INFO 74973 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:13:15,935 INFO 74973 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:13:15,935 INFO 74973 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:13:15,936 INFO 74973 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:13:15,936 INFO 74973 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:13:15,937 INFO 74973 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:13:15,937 INFO 74973 branchName----------------- main
+2021-10-04 22:13:15,937 INFO 74973 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:28:48,985 INFO 75138 [event-app] Going to load
+2021-10-04 22:28:48,986 INFO 75138 [sched-app] Going to load
+2021-10-04 22:28:48,986 INFO 75138 [installation-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [phManager-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [github-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [gitlab-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [gitee-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [ciManager-app] Going to load
+2021-10-04 22:28:48,987 INFO 75138 [imManager-app] Going to load
+2021-10-04 22:28:48,988 INFO 75138 [translate-app] Going to load
+2021-10-04 22:28:48,988 INFO 75138 [errorManager-app] Going to load
+2021-10-04 22:28:49,101 INFO 75138 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,101 INFO 75138 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,101 INFO 75138 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,102 INFO 75138 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:28:49,104 INFO 75138 [event-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,104 INFO 75138 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [github-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,105 INFO 75138 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:28:49,121 INFO 75138 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:28:49,122 INFO 75138 [host-github] Start to init webhooks for github
+2021-10-04 22:28:49,122 INFO 75138 [host-github] Start to watch file config
+2021-10-04 22:28:49,135 INFO 75138 [host-github] Start to load components
+2021-10-04 22:28:49,137 INFO 75138 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:28:49,138 INFO 75138 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:28:49,141 INFO 75138 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:28:49,144 INFO 75138 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:28:49,146 INFO 75138 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:28:49,149 INFO 75138 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:28:49,152 INFO 75138 [host-github-component-service] Gonna load component under command
+2021-10-04 22:28:49,154 INFO 75138 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:28:49,156 INFO 75138 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:28:49,160 INFO 75138 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:28:49,162 INFO 75138 [host-github-component-service] Gonna load component under im
+2021-10-04 22:28:49,165 INFO 75138 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:28:49,167 INFO 75138 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:28:49,170 INFO 75138 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:28:49,173 INFO 75138 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:28:49,175 INFO 75138 [host-github-component-service] Gonna load component under role
+2021-10-04 22:28:49,177 INFO 75138 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:28:49,179 INFO 75138 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:28:49,181 INFO 75138 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:28:49,183 INFO 75138 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:28:49,187 INFO 75138 [host-github] Start to load and sync repos
+2021-10-04 22:28:51,418 INFO 75138 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:28:51,424 INFO 75138 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:28:51,425 INFO 75138 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:28:51,921 INFO 75138 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:28:51,922 INFO 75138 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:28:52,700 INFO 75138 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:28:52,702 INFO 75138 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:28:52,702 INFO 75138 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:28:52,753 INFO 75138 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:28:52,757 INFO 75138 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:28:52,757 INFO 75138 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:28:52,759 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:28:52,759 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:28:52,759 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:28:52,759 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:28:52,760 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:28:52,760 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:28:52,760 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:28:52,760 INFO 75138 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:28:52,760 INFO 75138 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:28:53,517 INFO 75138 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:29:09,980 INFO 75138 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:29:16,908 INFO 75138 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:29:16,908 INFO 75138 [client-github-JingbenShi668/lab-commandService] the issue's body is Maybe I like listening music.
+2021-10-04 22:29:16,910 INFO 75138 [client-github-JingbenShi668/lab-luaService] From lua: Enter ben_translate_Bot based on Hypertrons-------------
+2021-10-04 22:29:16,910 INFO 75138 [client-github-JingbenShi668/lab-luaService] From lua: issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:29:16,910 INFO 75138 [client-github-JingbenShi668/lab-luaService] Gonna translate to zh, src = 
+Maybe I like listening music.
+2021-10-04 22:29:16,911 INFO 75138 [client-github-JingbenShi668/lab-luaService] Enter Promise function ...
+2021-10-04 22:29:16,927 INFO 75138 [client-github-JingbenShi668/lab-luaService] Gonna get config for translation ...
+2021-10-04 22:29:16,928 INFO 75138 [client-github-JingbenShi668/lab-luaService] Gonna translate to en, src = 再次测试啦啦啦啦啦啦啦
+2021-10-04 22:29:17,192 INFO 75138 [client-github-JingbenShi668/lab-luaService] Translation Result-------------------- 也许我喜欢听音乐。
+2021-10-04 22:29:26,721 INFO 75138 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:29:26,721 INFO 75138 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:29:26,721 INFO 75138 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:29:26,723 INFO 75138 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:29:26,723 INFO 75138 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:29:26,723 INFO 75138 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:29:26,723 INFO 75138 branchName----------------- main
+2021-10-04 22:29:26,724 INFO 75138 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:29:26,724 INFO 75138 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:29:27,460 INFO 75138 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
+2021-10-04 22:35:10,843 INFO 75219 [event-app] Going to load
+2021-10-04 22:35:10,844 INFO 75219 [sched-app] Going to load
+2021-10-04 22:35:10,844 INFO 75219 [installation-app] Going to load
+2021-10-04 22:35:10,845 INFO 75219 [phManager-app] Going to load
+2021-10-04 22:35:10,845 INFO 75219 [github-app] Going to load
+2021-10-04 22:35:10,845 INFO 75219 [gitlab-app] Going to load
+2021-10-04 22:35:10,845 INFO 75219 [gitee-app] Going to load
+2021-10-04 22:35:10,845 INFO 75219 [ciManager-app] Going to load
+2021-10-04 22:35:10,846 INFO 75219 [imManager-app] Going to load
+2021-10-04 22:35:10,846 INFO 75219 [translate-app] Going to load
+2021-10-04 22:35:10,846 INFO 75219 [errorManager-app] Going to load
+2021-10-04 22:35:10,964 INFO 75219 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,965 INFO 75219 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:35:10,968 INFO 75219 [event-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,968 INFO 75219 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,968 INFO 75219 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [github-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,969 INFO 75219 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:35:10,990 INFO 75219 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:35:10,990 INFO 75219 [host-github] Start to init webhooks for github
+2021-10-04 22:35:10,991 INFO 75219 [host-github] Start to watch file config
+2021-10-04 22:35:11,006 INFO 75219 [host-github] Start to load components
+2021-10-04 22:35:11,007 INFO 75219 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:35:11,008 INFO 75219 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:35:11,012 INFO 75219 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:35:11,014 INFO 75219 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:35:11,017 INFO 75219 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:35:11,021 INFO 75219 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:35:11,025 INFO 75219 [host-github-component-service] Gonna load component under command
+2021-10-04 22:35:11,028 INFO 75219 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:35:11,031 INFO 75219 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:35:11,034 INFO 75219 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:35:11,037 INFO 75219 [host-github-component-service] Gonna load component under im
+2021-10-04 22:35:11,039 INFO 75219 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:35:11,042 INFO 75219 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:35:11,046 INFO 75219 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:35:11,049 INFO 75219 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:35:11,051 INFO 75219 [host-github-component-service] Gonna load component under role
+2021-10-04 22:35:11,055 INFO 75219 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:35:11,057 INFO 75219 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:35:11,059 INFO 75219 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:35:11,062 INFO 75219 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:35:11,068 INFO 75219 [host-github] Start to load and sync repos
+2021-10-04 22:35:13,302 INFO 75219 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:35:13,308 INFO 75219 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:35:13,308 INFO 75219 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:35:13,808 INFO 75219 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:35:13,808 INFO 75219 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:35:14,590 INFO 75219 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:35:14,591 INFO 75219 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:35:14,592 INFO 75219 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:35:14,642 INFO 75219 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:35:14,645 INFO 75219 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:35:14,646 INFO 75219 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:35:14,647 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:35:14,647 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:35:14,647 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:35:14,647 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:35:14,648 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:35:14,648 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:35:14,648 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:35:14,648 INFO 75219 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:35:14,648 INFO 75219 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:35:15,429 INFO 75219 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:35:33,865 INFO 75219 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:35:50,395 INFO 75219 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:35:50,395 INFO 75219 [client-github-JingbenShi668/lab-commandService] the issue's body is Maybe I like listening music.
+2021-10-04 22:35:50,397 INFO 75219 [client-github-JingbenShi668/lab-luaService] From lua: Enter ben_translate_Bot based on Hypertrons-------------
+2021-10-04 22:35:50,397 INFO 75219 [client-github-JingbenShi668/lab-luaService] From lua: issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:35:50,397 INFO 75219 [client-github-JingbenShi668/lab-luaService] Gonna translate to zh, src = 
+Maybe I like listening music.
+2021-10-04 22:35:50,398 INFO 75219 [client-github-JingbenShi668/lab-luaService] Enter Promise function ...
+2021-10-04 22:35:50,402 INFO 75219 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:35:50,416 INFO 75219 [client-github-JingbenShi668/lab-luaService] Gonna get config for translation ...
+2021-10-04 22:35:50,416 INFO 75219 [client-github-JingbenShi668/lab-luaService] Gonna translate to en, src = 创建issue
+2021-10-04 22:35:50,718 INFO 75219 [client-github-JingbenShi668/lab-luaService] Translation Result-------------------- 也许我喜欢听音乐。
+2021-10-04 22:35:51,536 INFO 75219 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
+2021-10-04 22:36:07,283 INFO 75219 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:36:07,284 INFO 75219 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:36:07,284 INFO 75219 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:36:07,285 INFO 75219 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:36:07,285 INFO 75219 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:36:07,286 INFO 75219 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:36:07,286 INFO 75219 branchName----------------- main
+2021-10-04 22:36:07,286 INFO 75219 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:37:32,723 INFO 75219 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,723 INFO 75219 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,654 INFO 75248 [event-app] Going to load
+2021-10-04 22:37:32,655 INFO 75248 [sched-app] Going to load
+2021-10-04 22:37:32,656 INFO 75248 [installation-app] Going to load
+2021-10-04 22:37:32,656 INFO 75248 [phManager-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [github-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [gitlab-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [gitee-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [ciManager-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [imManager-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [translate-app] Going to load
+2021-10-04 22:37:32,657 INFO 75248 [errorManager-app] Going to load
+2021-10-04 22:37:32,729 INFO 75248 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,729 INFO 75248 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,729 INFO 75248 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,730 INFO 75248 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:32,733 INFO 75248 [event-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,733 INFO 75248 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [github-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,734 INFO 75248 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:32,752 INFO 75248 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:37:32,752 INFO 75248 [host-github] Start to init webhooks for github
+2021-10-04 22:37:32,753 INFO 75248 [host-github] Start to watch file config
+2021-10-04 22:37:36,937 INFO 75248 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,937 INFO 75248 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,937 INFO 75248 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,937 INFO 75248 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,937 INFO 75248 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,937 INFO 75248 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,938 INFO 75248 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,938 INFO 75248 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,938 INFO 75248 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,938 INFO 75248 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,938 INFO 75248 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,868 INFO 75257 [event-app] Going to load
+2021-10-04 22:37:36,869 INFO 75257 [sched-app] Going to load
+2021-10-04 22:37:36,869 INFO 75257 [installation-app] Going to load
+2021-10-04 22:37:36,870 INFO 75257 [phManager-app] Going to load
+2021-10-04 22:37:36,870 INFO 75257 [github-app] Going to load
+2021-10-04 22:37:36,870 INFO 75257 [gitlab-app] Going to load
+2021-10-04 22:37:36,871 INFO 75257 [gitee-app] Going to load
+2021-10-04 22:37:36,871 INFO 75257 [ciManager-app] Going to load
+2021-10-04 22:37:36,871 INFO 75257 [imManager-app] Going to load
+2021-10-04 22:37:36,871 INFO 75257 [translate-app] Going to load
+2021-10-04 22:37:36,871 INFO 75257 [errorManager-app] Going to load
+2021-10-04 22:37:36,943 INFO 75257 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,943 INFO 75257 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,944 INFO 75257 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:37:36,946 INFO 75257 [event-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [github-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,946 INFO 75257 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,947 INFO 75257 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,947 INFO 75257 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:37:36,961 INFO 75257 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:37:36,962 INFO 75257 [host-github] Start to init webhooks for github
+2021-10-04 22:37:36,962 INFO 75257 [host-github] Start to watch file config
+2021-10-04 22:39:53,374 INFO 75257 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,374 INFO 75257 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,294 INFO 75270 [event-app] Going to load
+2021-10-04 22:39:53,296 INFO 75270 [sched-app] Going to load
+2021-10-04 22:39:53,296 INFO 75270 [installation-app] Going to load
+2021-10-04 22:39:53,297 INFO 75270 [phManager-app] Going to load
+2021-10-04 22:39:53,297 INFO 75270 [github-app] Going to load
+2021-10-04 22:39:53,297 INFO 75270 [gitlab-app] Going to load
+2021-10-04 22:39:53,297 INFO 75270 [gitee-app] Going to load
+2021-10-04 22:39:53,298 INFO 75270 [ciManager-app] Going to load
+2021-10-04 22:39:53,298 INFO 75270 [imManager-app] Going to load
+2021-10-04 22:39:53,298 INFO 75270 [translate-app] Going to load
+2021-10-04 22:39:53,298 INFO 75270 [errorManager-app] Going to load
+2021-10-04 22:39:53,381 INFO 75270 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,381 INFO 75270 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,381 INFO 75270 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,381 INFO 75270 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,381 INFO 75270 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,382 INFO 75270 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:39:53,384 INFO 75270 [event-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [github-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,384 INFO 75270 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,385 INFO 75270 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,385 INFO 75270 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:39:53,401 INFO 75270 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:39:53,402 INFO 75270 [host-github] Start to init webhooks for github
+2021-10-04 22:39:53,402 INFO 75270 [host-github] Start to watch file config
+2021-10-04 22:40:12,909 INFO 75270 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,910 INFO 75270 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,837 INFO 75281 [event-app] Going to load
+2021-10-04 22:40:12,838 INFO 75281 [sched-app] Going to load
+2021-10-04 22:40:12,838 INFO 75281 [installation-app] Going to load
+2021-10-04 22:40:12,839 INFO 75281 [phManager-app] Going to load
+2021-10-04 22:40:12,839 INFO 75281 [github-app] Going to load
+2021-10-04 22:40:12,839 INFO 75281 [gitlab-app] Going to load
+2021-10-04 22:40:12,839 INFO 75281 [gitee-app] Going to load
+2021-10-04 22:40:12,840 INFO 75281 [ciManager-app] Going to load
+2021-10-04 22:40:12,840 INFO 75281 [imManager-app] Going to load
+2021-10-04 22:40:12,840 INFO 75281 [translate-app] Going to load
+2021-10-04 22:40:12,840 INFO 75281 [errorManager-app] Going to load
+2021-10-04 22:40:12,916 INFO 75281 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,916 INFO 75281 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,916 INFO 75281 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,916 INFO 75281 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,916 INFO 75281 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,917 INFO 75281 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:12,918 INFO 75281 [event-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [github-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,919 INFO 75281 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:12,937 INFO 75281 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:40:12,937 INFO 75281 [host-github] Start to init webhooks for github
+2021-10-04 22:40:12,939 INFO 75281 [host-github] Start to watch file config
+2021-10-04 22:40:13,454 INFO 75281 [host-github] Start to load components
+2021-10-04 22:40:13,457 INFO 75281 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:40:13,458 INFO 75281 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:40:13,461 INFO 75281 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:40:13,463 INFO 75281 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:40:13,465 INFO 75281 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:40:13,467 INFO 75281 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:40:13,470 INFO 75281 [host-github-component-service] Gonna load component under command
+2021-10-04 22:40:13,472 INFO 75281 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:40:13,474 INFO 75281 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:40:13,476 INFO 75281 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:40:13,478 INFO 75281 [host-github-component-service] Gonna load component under im
+2021-10-04 22:40:13,481 INFO 75281 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:40:13,482 INFO 75281 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:40:13,484 INFO 75281 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:40:13,485 INFO 75281 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:40:13,487 INFO 75281 [host-github-component-service] Gonna load component under role
+2021-10-04 22:40:13,488 INFO 75281 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:40:13,490 INFO 75281 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:40:13,491 INFO 75281 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:40:13,493 INFO 75281 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:40:13,498 INFO 75281 [host-github] Start to load and sync repos
+2021-10-04 22:40:15,759 INFO 75281 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:40:15,764 INFO 75281 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:40:15,765 INFO 75281 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:40:20,853 INFO 75298 [event-app] Going to load
+2021-10-04 22:40:20,855 INFO 75298 [sched-app] Going to load
+2021-10-04 22:40:20,855 INFO 75298 [installation-app] Going to load
+2021-10-04 22:40:20,856 INFO 75298 [phManager-app] Going to load
+2021-10-04 22:40:20,856 INFO 75298 [github-app] Going to load
+2021-10-04 22:40:20,856 INFO 75298 [gitlab-app] Going to load
+2021-10-04 22:40:20,856 INFO 75298 [gitee-app] Going to load
+2021-10-04 22:40:20,856 INFO 75298 [ciManager-app] Going to load
+2021-10-04 22:40:20,857 INFO 75298 [imManager-app] Going to load
+2021-10-04 22:40:20,857 INFO 75298 [translate-app] Going to load
+2021-10-04 22:40:20,857 INFO 75298 [errorManager-app] Going to load
+2021-10-04 22:40:20,939 INFO 75298 [event-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,939 INFO 75298 [sched-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,939 INFO 75298 [installation-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,939 INFO 75298 [phManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [github-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [gitlab-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [gitee-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [ciManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [imManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [translate-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,940 INFO 75298 [errorManager-app] Bot ready, start to run onReady.
+2021-10-04 22:40:20,943 INFO 75298 [event-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [sched-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [installation-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [phManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [github-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [gitlab-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [gitee-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [ciManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,943 INFO 75298 [imManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,944 INFO 75298 [translate-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,944 INFO 75298 [errorManager-app] Bot start, start to run onStart.
+2021-10-04 22:40:20,964 INFO 75298 [host-github] Gonna add webhook to "installation/0/" for hosting github
+2021-10-04 22:40:20,964 INFO 75298 [host-github] Start to init webhooks for github
+2021-10-04 22:40:20,965 INFO 75298 [host-github] Start to watch file config
+2021-10-04 22:40:20,977 INFO 75298 [host-github] Start to load components
+2021-10-04 22:40:20,978 INFO 75298 [host-github-component-service] Gonna load component from local file.
+2021-10-04 22:40:20,978 INFO 75298 [host-github-component-service] Gonna load component under approve
+2021-10-04 22:40:20,980 INFO 75298 [host-github-component-service] Gonna load component under auto_label
+2021-10-04 22:40:20,982 INFO 75298 [host-github-component-service] Gonna load component under auto_merge
+2021-10-04 22:40:20,983 INFO 75298 [host-github-component-service] Gonna load component under auto_translate_metrics
+2021-10-04 22:40:20,985 INFO 75298 [host-github-component-service] Gonna load component under ci
+2021-10-04 22:40:20,987 INFO 75298 [host-github-component-service] Gonna load component under command
+2021-10-04 22:40:20,989 INFO 75298 [host-github-component-service] Gonna load component under complete_checklist
+2021-10-04 22:40:20,992 INFO 75298 [host-github-component-service] Gonna load component under contributing_guide
+2021-10-04 22:40:20,995 INFO 75298 [host-github-component-service] Gonna load component under difficulty
+2021-10-04 22:40:20,997 INFO 75298 [host-github-component-service] Gonna load component under im
+2021-10-04 22:40:21,000 INFO 75298 [host-github-component-service] Gonna load component under issue_english_translator
+2021-10-04 22:40:21,001 INFO 75298 [host-github-component-service] Gonna load component under issue_reminder
+2021-10-04 22:40:21,003 INFO 75298 [host-github-component-service] Gonna load component under label_setup
+2021-10-04 22:40:21,005 INFO 75298 [host-github-component-service] Gonna load component under rerun
+2021-10-04 22:40:21,006 INFO 75298 [host-github-component-service] Gonna load component under role
+2021-10-04 22:40:21,008 INFO 75298 [host-github-component-service] Gonna load component under self_assign
+2021-10-04 22:40:21,009 INFO 75298 [host-github-component-service] Gonna load component under translation
+2021-10-04 22:40:21,011 INFO 75298 [host-github-component-service] Gonna load component under vote
+2021-10-04 22:40:21,012 INFO 75298 [host-github-component-service] Gonna load component under weekly_report
+2021-10-04 22:40:21,016 INFO 75298 [host-github] Start to load and sync repos
+2021-10-04 22:40:23,479 INFO 75298 [host-github] All installed repos loaded for hosting name=github, count=1
+2021-10-04 22:40:23,484 INFO 75298 [client-github-JingbenShi668/lab] onStart
+2021-10-04 22:40:23,484 INFO 75298 [client-github-JingbenShi668/lab] Start to update data for JingbenShi668/lab
+2021-10-04 22:40:23,984 INFO 75298 [client-github-JingbenShi668/lab] Start to sync data
+2021-10-04 22:40:23,985 INFO 75298 [client-github-JingbenShi668/lab-repoDataService] Start to sync repo data
+2021-10-04 22:40:24,778 INFO 75298 [client-github-JingbenShi668/lab-configService] Hosting client config inited, update local config
+2021-10-04 22:40:24,780 INFO 75298 [client-github-JingbenShi668/lab] onConfigLoaded
+2021-10-04 22:40:24,781 INFO 75298 [client-github-JingbenShi668/lab-luaService] runLuaScript called
+2021-10-04 22:40:24,841 INFO 75298 [client-github-JingbenShi668/lab-luaService] lua_sched called name=WeeklyReport, time =0 0 12 * * 1
+2021-10-04 22:40:24,844 INFO 75298 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Auto merge, time =0 */5 * * * *
+2021-10-04 22:40:24,846 INFO 75298 [client-github-JingbenShi668/lab-luaService] lua_sched called name=Issue reminder, time =8 8 9 * * *
+2021-10-04 22:40:24,847 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:40:24,847 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:40:24,847 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:40:24,847 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:40:24,848 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:40:24,848 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = PullRequestEvent
+2021-10-04 22:40:24,848 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = CommandEvent
+2021-10-04 22:40:24,848 INFO 75298 [client-github-JingbenShi668/lab-luaService] call lua_on, eventType = IssueEvent
+2021-10-04 22:40:24,848 INFO 75298 [client-github-JingbenShi668/lab-luaService] Lua exec result, undefined
+2021-10-04 22:40:25,604 INFO 75298 [client-github-JingbenShi668/lab-luaService] No need to update labels for JingbenShi668/lab
+2021-10-04 22:40:36,910 INFO 75298 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:40:42,031 INFO 75298 [client-github-JingbenShi668/lab-repoDataService] Repo data inited, update local data.
+2021-10-04 22:40:52,767 INFO 75298 [client-github-JingbenShi668/lab-commandService] Start to resolve the issue event for 0 and repo JingbenShi668/lab
+2021-10-04 22:40:52,767 INFO 75298 [client-github-JingbenShi668/lab-commandService] the issue's body is Maybe I like listening music.
+2021-10-04 22:40:52,769 INFO 75298 [client-github-JingbenShi668/lab-luaService] From lua: Enter ben_translate_Bot based on Hypertrons-------------
+2021-10-04 22:40:52,769 INFO 75298 [client-github-JingbenShi668/lab-luaService] From lua: issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:40:52,770 INFO 75298 [client-github-JingbenShi668/lab-luaService] Gonna translate to zh, src = 
+Maybe I like listening music.
+2021-10-04 22:40:52,770 INFO 75298 [client-github-JingbenShi668/lab-luaService] Enter Promise function ...
+2021-10-04 22:40:52,786 INFO 75298 [client-github-JingbenShi668/lab-luaService] Gonna get config for translation ...
+2021-10-04 22:40:52,787 INFO 75298 [client-github-JingbenShi668/lab-luaService] Gonna translate to en, src = 测试啦啦啦啦啦
+2021-10-04 22:40:53,047 INFO 75298 [client-github-JingbenShi668/lab-luaService] Translation Result-------------------- 也许我喜欢听音乐。
+2021-10-04 22:41:05,554 INFO 75298 [client-github-JingbenShi668/lab-commandService] Start to resolve the comment event for 0 and repo JingbenShi668/lab
+2021-10-04 22:41:05,554 INFO 75298 [client-github-JingbenShi668/lab-commandService] the comment's body is /translate
+2021-10-04 22:41:05,555 INFO 75298 [client-github-JingbenShi668/lab-commandService] extract the command is /translate
+2021-10-04 22:41:05,556 INFO 75298 [client-github-JingbenShi668/lab-luaService] From lua: Enter...........................................
+2021-10-04 22:41:05,556 INFO 75298 [client-github-JingbenShi668/lab-luaService] From lua: CommandEvent——————————————issue_Body-------------
+Maybe I like listening music.
+2021-10-04 22:41:05,556 INFO 75298 enter createOrUpdateFile----------------- hypertronsTest/EnglishMetrics
+2021-10-04 22:41:05,556 INFO 75298 branchName----------------- main
+2021-10-04 22:41:05,556 INFO 75298 [client-github-JingbenShi668/lab] createOrUpdateFile: hypertronsTest/EnglishMetrics
+2021-10-04 22:41:05,556 INFO 75298 [client-github-JingbenShi668/lab-luaService] enter----------------------------- hypertronsTest/en2zhMetrics
+2021-10-04 22:41:06,327 INFO 75298 [client-github-JingbenShi668/lab-luaService] getFileContent----------------------------- start我是中国人，我喜欢吃苹果。
